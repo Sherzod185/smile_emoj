@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 *{
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -30,8 +38,8 @@ position: relative;
 height: 211px;
   border-radius: 45% 55% 48% 52% / 54% 54% 46% 46%;
   background: #FAAB20;
-background: -moz-linear-gradient(left, #FAAB20 0%, #E17828 47%, #FAAB20 100%);
-background: -webkit-linear-gradient(left, #FAAB20 0%, #E17828 47%, #FAAB20 100%);
+background: -webkit-gradient(linear, left top, right top, from(#FAAB20), color-stop(47%, #E17828), to(#FAAB20));
+background: -o-linear-gradient(left, #FAAB20 0%, #E17828 47%, #FAAB20 100%);
 background: linear-gradient(to right, #FAAB20 0%, #E17828 47%, #FAAB20 100%);
 position: relative;
 position: absolute;
@@ -43,8 +51,7 @@ right: 60%;
   height: 193px;
   border-radius: 45% 55% 48% 52% / 54% 54% 46% 46%;
     background: #ACF5FA;
-    background: -moz-linear-gradient(-45deg, #ACF5FA 0%, #DCE1E1 32%, #F4FAF2 100%);
-    background: -webkit-linear-gradient(-45deg, #ACF5FA 0%, #DCE1E1 32%, #F4FAF2 100%);
+    background: -o-linear-gradient(315deg, #ACF5FA 0%, #DCE1E1 32%, #F4FAF2 100%);
     background: linear-gradient(135deg, #ACF5FA 0%, #DCE1E1 32%, #F4FAF2 100%);
   position: absolute;
   top: 8%;
@@ -103,10 +110,9 @@ right: 17%;
   border-radius:
   54% 46% 50% 50% / 53% 60% 40% 47%;
   background: #57BEE6;
-  background: -moz-linear-gradient(top, #57BEE6 0%, #A6D3F0 7%, #44A0E6 100%);
-  background: -webkit-linear-gradient(top, #57BEE6 0%, #A6D3F0 7%, #44A0E6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#57BEE6), color-stop(7%, #A6D3F0), to(#44A0E6));
+  background: -o-linear-gradient(top, #57BEE6 0%, #A6D3F0 7%, #44A0E6 100%);
   background: linear-gradient(to bottom, #57BEE6 0%, #A6D3F0 7%, #44A0E6 100%);
     top: 54%;
     right: 71%;
 }
-
